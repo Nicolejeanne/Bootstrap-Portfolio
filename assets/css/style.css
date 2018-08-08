@@ -34,13 +34,14 @@ h1 {
     padding-bottom: 20px;
 
 }
-.container {
+.container-fluid {
     padding-left: 10%;
     margin: 0;
+    margin-bottom: 5%;
     background-image: url("../images/what-the-hex.png");
     
 }
-.col-md-11 {
+.col-md-8 {
     border-style: solid;
     border-color: #cdcdcd;
     padding: 30px 50px;
@@ -49,6 +50,7 @@ h1 {
 }
 .row {
     padding-top: 20px;
+    background-color: transparent;
 }
 .btn {
     background-color: #4aaaa5;
@@ -57,5 +59,36 @@ h1 {
 }
 
 .btn-primary {
-    width: 18rem;
+    width: 100%;
+}
+.card-deck {
+    padding: 10px;
+   
+}
+.card-footer {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#picBanner {
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+.card {
+    border-style: none;
+}
+.invisible {
+    visibility: hidden;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color:#999999;
+    color: #dddddd;
+    text-align: center;
+    border-top: solid 10px #4aaaa5;
 }
